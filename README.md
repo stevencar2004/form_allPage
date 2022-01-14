@@ -1,7 +1,7 @@
 # LOGIN - ALL PAGE WITH BANNER
 
 ## Technologies
- + HTML5
+ + HTML5 - BEM
  + CSS3
  + SASS
  + JS
