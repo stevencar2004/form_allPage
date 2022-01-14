@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login</title>
+		<script
+			src="https://kit.fontawesome.com/6fc7def821.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="Styles/css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="banner">
+				<img src="Assets/wave.png" alt="wave-img" class="banner__wave" />
+
+				<img src="Assets/banner.svg" alt="banner-img" class="banner__img" />
+			</div>
+
+			<div class="login">
+				<form action="#" class="form">
+					<div class="form__avatar">
+						<img src="Assets/avatar.svg" alt="avatar-img" class="form__img" />
+						<h2 class="form__title">WELCOME</h2>
+					</div>
+
+					<div class="form__box form__box--border" id="boxInput1">
+						<div class="form__icon">
+							<i class="fas fa-user"></i>
+						</div>
+						<div class="form__input">
+							<h3>Username</h3>
+							<input
+								type="text"
+								maxlength="20"
+								minlength="3"
+								required
+								class="form__inputs"
+								id="input1"
+							/>
+						</div>
+					</div>
+
+					<div class="form__box form__box--border" id="boxInput2">
+						<div class="form__icon">
+							<i class="fas fa-lock"></i>
+						</div>
+						<div class="form__input">
+							<h3>password</h3>
+							<input
+								type="password"
+								maxlength="20"
+								minlength="3"
+								required
+								class="form__inputs"
+								id="input2"
+							/>
+						</div>
+					</div>
+
+					<div class="form__box">
+						<a href="#">Forgot Password?</a>
+					</div>
+
+					<div class="form__box">
+						<input type="button" value="LOGIN" class="form__btn" />
+					</div>
+				</form>
+			</div>
+		</div>
+		<script src="animateInputs/index.js"></script>
+	</body>
+</html>

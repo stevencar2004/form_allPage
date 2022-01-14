@@ -1,0 +1,9 @@
+@mixin transition-efect($bg: true) {
+	transition: 0.3s ease;
+	cursor: pointer;
+	@if $bg {
+		background-color: $color_primary--dark;
+	} @else {
+		color: $color_primary--dark;
+	}
+}
